@@ -2,6 +2,7 @@ public class Dog {
     private String name,color;
     private float weight;
 
+
     public void AllData (String name, float weight, String color){
         setName(name);
         setWeight(weight);
