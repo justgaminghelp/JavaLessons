@@ -12,8 +12,11 @@ public class Onime{
 
         //Dopher:
         gopher gop = new gopher();
+        WolfHound wolf = new WolfHound();
         gop.allSet(300.0f, 15.0f, "Рыжий Валлиант");
         System.out.println(gop.allOut());
+        wolf.allSet(200, 20, 13);
+        System.out.println(wolf.allOut());
     }
 
 
